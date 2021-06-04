@@ -1,8 +1,8 @@
-package br.com.gabriel.aula.conceitos.estrutura.repetitiva.Exercicio;
+package br.com.gabriel.aula.conceitos.estrutura.repetitiva;
 
 import java.util.Scanner;
 
-public class senhas {
+public class Senhas {
 
   public static void main(String[] args) {
 
@@ -19,6 +19,5 @@ public class senhas {
     sc.close();
 
   }
-
 
 }
