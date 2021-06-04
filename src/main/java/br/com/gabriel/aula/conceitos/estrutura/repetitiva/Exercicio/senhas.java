@@ -18,7 +18,6 @@ public class senhas {
 
     sc.close();
 
-
   }
 
 
