@@ -8,9 +8,9 @@ public class Posto {
 
     Scanner sc= new Scanner(System.in);
 
-    int gasolina = 0;
-    int alcool = 0;
-    int diesel = 0;
+    int gasolina = 00;
+    int alcool   = 00;
+    int diesel   = 00;
 
     int opc = sc.nextInt();
 
