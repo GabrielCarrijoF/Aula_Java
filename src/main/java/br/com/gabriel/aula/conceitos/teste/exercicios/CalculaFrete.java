@@ -1,6 +1,5 @@
-package br.com.gabriel.aula.conceitos.exercicios;
+package br.com.gabriel.aula.conceitos.teste.exercicios;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 class CalculaFrete {
