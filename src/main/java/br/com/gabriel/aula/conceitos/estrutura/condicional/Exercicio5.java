@@ -15,17 +15,13 @@ public class Exercicio5 {
 
     if (codigo == 1) {
       total = quantidade * 4.0;
-    }
-    else if (codigo == 2) {
+    } else if (codigo == 2) {
       total = quantidade * 4.5;
-    }
-    else if (codigo == 3) {
+    } else if (codigo == 3) {
       total = quantidade * 5.0;
-    }
-    else if (codigo == 4) {
+    } else if (codigo == 4) {
       total = quantidade * 2.0;
-    }
-    else {
+    } else {
 
       total = quantidade * 1.5;
     }

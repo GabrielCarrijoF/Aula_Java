@@ -6,12 +6,12 @@ public class Exercicio2 {
 
   public static void main(String[] args) {
 
-    System.out.println("Informe um valor:" );
+    System.out.println("Informe um valor:");
     Scanner sc = new Scanner(System.in);
 
-    int N = sc.nextInt();
+    int n = sc.nextInt();
 
-    if (N % 2 == 0) {
+    if (n % 2 == 0) {
       System.out.println("PAR");
     } else {
       System.out.println("IMPAR");

@@ -1,20 +1,17 @@
-package br.com.gabriel.aula.conceitos.introducao.Exercicio.introdução.exercicio;
+package br.com.gabriel.aula.conceitos.introducao.exercicio;
 
 import java.util.Scanner;
 
-public class exercicio_um {
+public class ExercicioUm {
 
   public static void main(String[] args) {
 
     Scanner sc = new Scanner(System.in);
 
-    int A, B, soma;
-
-    A = sc.nextInt();
-    B = sc.nextInt();
-
     System.out.println();
-    soma = A + B;
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    int soma = a + b;
     System.out.println("Ta ai a soma meu kiridu = " + soma);
 
     sc.close();

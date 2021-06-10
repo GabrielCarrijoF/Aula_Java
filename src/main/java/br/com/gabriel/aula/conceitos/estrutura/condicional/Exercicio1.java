@@ -8,13 +8,13 @@ public class Exercicio1 {
 
     System.out.println("Qual valor ?");
     Scanner sc = new Scanner(System.in);
-    int X = sc.nextInt();
+    int x = sc.nextInt();
 
     System.out.printf("-----------------------%n");
-    System.out.printf("Valor digitado " + X);
+    System.out.printf("Valor digitado " + x);
     System.out.printf("%n-----------------------%n%n");
 
-    if (X >= 0) {
+    if (x >= 0) {
       System.out.println("NÃO NEGATIVO");
     } else {
       System.out.println("NEGATIVO");
