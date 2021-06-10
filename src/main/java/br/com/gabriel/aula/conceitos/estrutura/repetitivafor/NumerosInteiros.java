@@ -24,7 +24,6 @@ public class NumerosInteiros {
     System.out.println(out + " out");
 
     sc.close();
-
   }
 
 }
