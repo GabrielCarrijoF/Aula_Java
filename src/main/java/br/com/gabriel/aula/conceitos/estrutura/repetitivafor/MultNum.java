@@ -12,10 +12,10 @@ public class MultNum {
 
     for (int i = 1; i <= num; i++) {
 
-      int pri = i;
-      int seg = i * i;
-      int terc = i * i * i;
-      System.out.printf("%d %d %d%n",pri,seg,terc);
+      int firstNumber = i;
+      int secondNumber = i * i;
+      int thirdNumber = i * i * i;
+      System.out.printf("%d %d %d%n",firstNumber,secondNumber,thirdNumber);
     }
 
     sc.close();
