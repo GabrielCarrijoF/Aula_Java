@@ -12,21 +12,16 @@ public class DivisaoNumeros {
 
     for (int i = 0; i < num; i++) {
 
-      int som1 = sc.nextInt();
-      int som2 = sc.nextInt();
+      int numero1 = sc.nextInt();
+      int numero2 = sc.nextInt();
 
-      if (som2 == 0) {
+      if (numero2 == 0) {
         System.out.println("Divisao impossivel");
       } else {
-        double resultado = (double) som1/som2;
+        double resultado = (double) numero1 / numero2;
         System.out.printf("%.1f%n", resultado);
       }
-
-
     }
-
     sc.close();
-
   }
-
 }
