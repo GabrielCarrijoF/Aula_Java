@@ -8,7 +8,7 @@ public class conversaodetemperaturas {
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
-    String resp;
+    char resp;
 
     do {
       System.out.println("Digite a Temperatura em Celsius");
@@ -16,9 +16,9 @@ public class conversaodetemperaturas {
       double temF = (tempCelsius * 1.8) + 32;
       System.out.println("Valor em F:" + temF);
       System.out.println("Deseja continuar (s/n)");
-      resp = sc.nextLine();
+      resp = sc.next().charAt(0);
 
-    } while (resp.equalsIgnoreCase("s"));
+    } while (resp !='n');
 
     sc.close();
 
