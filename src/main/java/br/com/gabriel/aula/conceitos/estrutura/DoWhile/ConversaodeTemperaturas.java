@@ -3,24 +3,23 @@ package br.com.gabriel.aula.conceitos.estrutura.DoWhile;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class conversaodetemperaturas {
+public class ConversaodeTemperaturas {
 
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
-    char resp;
+    String resp;
 
     do {
       System.out.println("Digite a Temperatura em Celsius");
-      double tempCelsius = Double.parseDouble(sc.nextLine());
-      double temF = (tempCelsius * 1.8) + 32;
-      System.out.println("Valor em F:" + temF);
+      double temperaturaCelsius = Double.parseDouble(sc.nextLine());
+      double temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
+      System.out.println("Valor em F:" + temperaturaFahrenheit);
       System.out.println("Deseja continuar (s/n)");
-      resp = sc.next().charAt(0);
+      resp = sc.nextLine();
 
-    } while (resp !='n');
+    } while (resp.equalsIgnoreCase("s"));
 
     sc.close();
-
   }
 }
