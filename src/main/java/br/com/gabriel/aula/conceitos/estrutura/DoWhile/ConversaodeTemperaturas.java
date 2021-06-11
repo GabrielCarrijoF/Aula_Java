@@ -14,7 +14,7 @@ public class ConversaodeTemperaturas {
       System.out.println("Digite a Temperatura em Celsius");
       double temperaturaCelsius = Double.parseDouble(sc.nextLine());
       double temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
-      System.out.println("Valor em F:" + temperaturaFahrenheit);
+      System.out.println("Valor em Fahrenheit:" + temperaturaFahrenheit);
       System.out.println("Deseja continuar (s/n)");
       resp = sc.nextLine();
 
