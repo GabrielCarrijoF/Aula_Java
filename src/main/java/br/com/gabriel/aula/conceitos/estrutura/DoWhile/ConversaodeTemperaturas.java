@@ -3,7 +3,7 @@ package br.com.gabriel.aula.conceitos.estrutura.DoWhile;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class conversaodetemperaturas {
+public class ConversaodeTemperaturas {
 
   public static void main(String[] args) {
     Locale.setDefault(Locale.US);
@@ -12,15 +12,14 @@ public class conversaodetemperaturas {
 
     do {
       System.out.println("Digite a Temperatura em Celsius");
-      double tempCelsius = Double.parseDouble(sc.nextLine());
-      double temF = (tempCelsius * 1.8) + 32;
-      System.out.println("Valor em F:" + temF);
+      double temperaturaCelsius = Double.parseDouble(sc.nextLine());
+      double temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
+      System.out.println("Valor em Fahrenheit:" + temperaturaFahrenheit);
       System.out.println("Deseja continuar (s/n)");
       resp = sc.nextLine();
 
     } while (resp.equalsIgnoreCase("s"));
 
     sc.close();
-
   }
 }
