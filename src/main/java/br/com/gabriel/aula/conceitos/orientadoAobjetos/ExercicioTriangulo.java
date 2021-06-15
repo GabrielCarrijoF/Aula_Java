@@ -25,23 +25,16 @@ public class ExercicioTriangulo {
     enterArea2.area2 = sc.nextDouble();
     enterArea2.area3 = sc.nextDouble();
 
-    double calculoArea = (enterArea.area1 + enterArea.area2 + enterArea.area3) / 2.0;
-
-    double resultArea = Math.sqrt(calculoArea * (calculoArea - enterArea.area1) * (calculoArea
-        - enterArea.area2) * (calculoArea - enterArea.area3));
-
-    double calculoArea2 = (enterArea2.area1 + enterArea2.area2 + enterArea2.area3) / 2.0;
-
-    double resultArea2 = Math.sqrt(calculoArea * (calculoArea - enterArea2.area1) * (calculoArea2
-        - enterArea.area2) * (calculoArea2 - enterArea.area3));
+    double resultArea = enterArea.area();
+    double resultArea2 = enterArea2.area();
 
     System.out.printf("Triangle X area: %.4f%n ", resultArea);
     System.out.printf("Triangle Y area: %.4f%n ", resultArea2);
 
     if (resultArea > resultArea2) {
-      System.out.println("triangle X is the largest");
+      System.out.println("triangle X is the largest: ");
     } else {
-      System.out.println("triangle Y is the largest");
+      System.out.println("triangle Y is the largest: ");
     }
     sc.close();
   }
