@@ -1,4 +1,4 @@
-package br.com.gabriel.aula.conceitos.estrutura.DoWhile;
+package br.com.gabriel.aula.conceitos.estrutura.dowhile;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -12,9 +12,9 @@ public class ConversaodeTemperaturas {
 
     do {
       System.out.println("Digite a Temperatura em Celsius");
-      double temperaturaCelsius = Double.parseDouble(sc.nextLine());
-      double temperaturaFahrenheit = (temperaturaCelsius * 1.8) + 32;
-      System.out.println("Valor em Fahrenheit:" + temperaturaFahrenheit);
+      double tempCelsius = Double.parseDouble(sc.nextLine());
+      double temF = (tempCelsius * 1.8) + 32;
+      System.out.println("Valor em F:" + temF);
       System.out.println("Deseja continuar (s/n)");
       resp = sc.nextLine();
 
