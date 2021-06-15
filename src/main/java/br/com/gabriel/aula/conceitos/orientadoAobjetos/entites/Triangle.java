@@ -5,4 +5,3 @@ package br.com.gabriel.aula.conceitos.orientadoAobjetos.entites;
     public double area2;
     public double area3;
   }
-

@@ -43,7 +43,6 @@ public class ExercicioTriangulo {
     }else {
       System.out.println("triangle Y is the largest");
     }
-
     sc.close();
   }
 }
