@@ -1,4 +1,4 @@
-package br.com.gabriel.aula.conceitos.estrutura.DoWhile;
+package br.com.gabriel.aula.conceitos.estrutura.dowhile;
 
 import java.util.Locale;
 import java.util.Scanner;

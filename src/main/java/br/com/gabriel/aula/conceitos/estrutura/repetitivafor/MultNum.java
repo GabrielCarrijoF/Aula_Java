@@ -15,7 +15,7 @@ public class MultNum {
       int firstNumber = i;
       int secondNumber = i * i;
       int thirdNumber = i * i * i;
-      System.out.printf("%d %d %d%n",firstNumber,secondNumber,thirdNumber);
+      System.out.printf("%d %d %d%n", firstNumber, secondNumber, thirdNumber);
     }
 
     sc.close();

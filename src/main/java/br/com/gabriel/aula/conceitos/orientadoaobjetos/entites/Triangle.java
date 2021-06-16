@@ -1,4 +1,4 @@
-package br.com.gabriel.aula.conceitos.orientadoAobjetos.entites;
+package br.com.gabriel.aula.conceitos.orientadoaobjetos.entites;
 
 public class Triangle {
 
