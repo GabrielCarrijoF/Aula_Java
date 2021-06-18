@@ -1,6 +1,6 @@
-package br.com.gabriel.aula.conceitos.orientadoaobjetos;
+package br.com.gabriel.aula.conceitos.orientadaaobjetos;
 
-import br.com.gabriel.aula.conceitos.orientadoaobjetos.entites.Product;
+import br.com.gabriel.aula.conceitos.orientadaaobjetos.entites.Product;
 import java.util.Locale;
 import java.util.Scanner;
 

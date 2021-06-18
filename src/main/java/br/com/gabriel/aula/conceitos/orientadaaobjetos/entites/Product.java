@@ -1,4 +1,4 @@
-package br.com.gabriel.aula.conceitos.orientadoaobjetos.entites;
+package br.com.gabriel.aula.conceitos.orientadaaobjetos.entites;
 
 public class Product {
 
