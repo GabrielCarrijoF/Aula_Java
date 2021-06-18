@@ -20,7 +20,8 @@ public class Ex5finalgrade {
     student.secondGrade = sc.nextDouble();
     student.thirdGrade = sc.nextDouble();
     System.out.printf("FINAL GRADE: %.2f%n", student.finalGrade());
-    if (student.finalGrade() < 60.0) {
+
+    if (student.finalGrade() < FinalGrade.PERCENTAGE_OF_SUCCESS) {
       System.out.println("FAILED");
       System.out.printf("MISSING %.2f POINTS%n", student.classification());
     } else {
