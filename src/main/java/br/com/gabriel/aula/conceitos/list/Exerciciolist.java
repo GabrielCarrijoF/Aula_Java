@@ -46,7 +46,7 @@ public class Exerciciolist {
     }else {
       System.out.print("Enter the percentage: ");
       double porcentage = sc.nextDouble();
-      emp.incraseSalary(porcentage);
+      emp.increaseSalary(porcentage);
     }
 
     System.out.println();

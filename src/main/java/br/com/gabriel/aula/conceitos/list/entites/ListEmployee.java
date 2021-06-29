@@ -39,7 +39,7 @@ public class ListEmployee {
     this.id = id;
   }
 
-  public void incraseSalary(double porcentage) {
+  public void increaseSalary(double porcentage) {
     salary += salary * porcentage;
   }
 
