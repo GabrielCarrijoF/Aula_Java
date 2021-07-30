@@ -22,7 +22,8 @@ public class Taxpayers {
 
     for (int i = 1; i <= numberPayers; i++) {
 
-      System.out.println("Tax payer #" + i + " data:");
+      System.out.printf("Tax payer #%d data:", i);
+      System.out.println();
       System.out.print("Individual or company (i/c)?");
       char company = sc.next().charAt(0);
       System.out.print("Name: ");
@@ -36,7 +37,7 @@ public class Taxpayers {
         Double healthExpenditures = sc.nextDouble();
         list.add(new Individual(name, anualIncome, healthExpenditures));
       } else {
-        System.out.println("Number of employes: ");
+        System.out.println("Number of employees: ");
         int numberEmployes = sc.nextInt();
         list.add(new Company(name, anualIncome, numberEmployes));
 
