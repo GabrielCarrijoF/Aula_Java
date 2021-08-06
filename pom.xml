@@ -6,7 +6,7 @@
 
     <groupId>br.com.Gabriel</groupId>
     <artifactId>Aulas_Java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v1.0-SNAPSHOT</version>
 
     <properties>
         <java.version>11</java.version>
