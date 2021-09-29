@@ -13,7 +13,8 @@ public class ExercicioDois {
     System.out.println("Qual valor da Raio?");
     double raio = sc.nextDouble();
 
-    double result = pi * (raio * raio);
+    double result = pi * Math.pow(raio,2);
+
     System.out.println("O rsultado da Area: " + result);
 
     sc.close();

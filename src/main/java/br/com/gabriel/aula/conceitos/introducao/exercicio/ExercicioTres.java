@@ -8,14 +8,16 @@ public class ExercicioTres {
 
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Informe 4 valores:");
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int c = sc.nextInt();
-    int d = sc.nextInt();
+    int a,b,c,d;
 
-    int dif = (a * b) - (c * d);
-    System.out.printf("O resultado é " + dif);
+    System.out.println("Informe 4 valores:");
+    a = sc.nextInt();
+    b = sc.nextInt();
+    c = sc.nextInt();
+    d = sc.nextInt();
+
+    int calc = (a * b) - (c * d);
+    System.out.printf("O resultado é " + calc);
 
     sc.close();
   }
